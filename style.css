@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.card, .project-card {
+  background: #1f2937;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 15px;
+  border: 1px solid #38bdf8;
+  max-width: 500px;
+}
+
+h1, h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  section {
+    padding: 20px 5px;
+  }
+
+  .card, .project-card {
+    width: 100%;
+ 
+}
+/* Hero buttons */
+.hero a,
+.hero .btn {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 10px 5px;
+  border: 2px solid #38bdf8;
+  border-radius: 10px;
+  background: #1f2937;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero a:hover,
+.hero .btn:hover {
+  background: #38bdf8;
+  color: #111827;
+  transform: translateY(-3px);
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .hero a,
+  .hero .btn {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+  }
+}
+a[href="#projects"],
+a[href="#contact"] {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px;
+  border: 2px solid #38bdf8;
+  border-radius: 10px;
+  background: #1f2937;
+  color: #38bdf8;
+  text-decoration: none;
+}
+}
